@@ -1,0 +1,28 @@
+{
+  "name": "magneto",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "release": "cd src && npm install && cd .. && node build-release.js",
+    "build": "cd src && npm install && cd .. && node build-dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitumin/magneto.git"
+  },
+  "keywords": [
+    "magnet",
+    "torrent",
+    "search"
+  ],
+  "author": "Mitxel Moriana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitumin/magneto/issues"
+  },
+  "homepage": "https://github.com/bitumin/magneto#readme",
+  "devDependencies": {
+    "nw-builder": "^3.4.1"
+  }
+}
